@@ -1,9 +1,10 @@
 import React from "react";
 
-import webwhizLogo from "../../assets/webwhiz-2.png";
 import Image from "next/image";
 
 const Footer = () => {
+  const webwhizLogo =
+    "http://res.cloudinary.com/dcf23bhzd/image/upload/v1698335949/nextjsblog_uploads/lwi5qg90w8wnftila01p.png";
   return (
     <div className="my-20">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

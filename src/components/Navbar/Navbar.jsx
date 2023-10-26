@@ -8,9 +8,9 @@ import { BiSearch } from "react-icons/bi";
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 
-import webwhizLogo from "../../assets/webwhiz-2.png";
-
 const Navbar = () => {
+  const webwhizLogo =
+    "http://res.cloudinary.com/dcf23bhzd/image/upload/v1698335949/nextjsblog_uploads/lwi5qg90w8wnftila01p.png";
   const { data, status } = useSession();
   const { systemTheme, theme, setTheme } = useTheme();
   useEffect(() => {
