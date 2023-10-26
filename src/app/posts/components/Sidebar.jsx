@@ -43,11 +43,11 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col gap-10">
       <div>
-        <p className="text-gray-500">What's hot</p>
+        <p className="text-gray-500">What&apos;s hot</p>
         <h1 className="text-2xl font-bold">Most Polular</h1>
         <div className="flex flex-col gap-5 mt-5">
           {mostPopularPosts?.map((post) => (
-            <div className="">
+            <div className="" key={post?._id}>
               <span className="bg-teal-600 text-white px-5 py-2 rounded-full">
                 {post?.categories[0]}
               </span>
@@ -93,7 +93,7 @@ const Sidebar = () => {
         <h1 className="text-2xl font-bold">Editors Pick</h1>
         <div className="flex flex-col gap-5 mt-5">
           {latestPosts?.map((post) => (
-            <div className="">
+            <div className="" key={post?._id}>
               <span className="bg-teal-600 text-white px-5 py-2 rounded-full">
                 {post?.categories[0]}
               </span>
