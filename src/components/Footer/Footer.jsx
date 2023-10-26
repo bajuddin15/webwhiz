@@ -1,6 +1,6 @@
 import React from "react";
 
-import webwhizLogo from "@/assets/webwhiz-2.png";
+import webwhizLogo from "../../assets/webwhiz-2.png";
 import Image from "next/image";
 
 const Footer = () => {

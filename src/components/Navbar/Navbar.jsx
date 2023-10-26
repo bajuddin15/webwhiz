@@ -8,7 +8,7 @@ import { BiSearch } from "react-icons/bi";
 import { HiOutlineMenu } from "react-icons/hi";
 import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 
-import webwhizLogo from "@/assets/webwhiz-2.png";
+import webwhizLogo from "../../assets/webwhiz-2.png";
 
 const Navbar = () => {
   const { data, status } = useSession();
@@ -25,6 +25,11 @@ const Navbar = () => {
     <div className="flex items-center justify-between py-4 md:py-5">
       <div className="flex items-center gap-10">
         <div className="">
+          {/* <img
+            src="/webwhiz-2.png"
+            alt="webwhiz"
+            className="w-[120px] h-[120px] mb-5"
+          /> */}
           <Image
             src={webwhizLogo}
             alt="webwhiz"
